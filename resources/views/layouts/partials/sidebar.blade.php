@@ -17,7 +17,6 @@
              <li>
                 <a @class(['flex items-center gap-x-3.5 py-2 px-2.5 text-sm rounded-lg', 'bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-white' => request()->routeIs('components'), 'text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-900 dark:text-gray-400 dark:hover:text-gray-300' => !request()->routeIs('components')])
                    href="{{ route('components') }}"
-                   
                 >
                     <svg class="size-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" /></svg>
                     UI Components
